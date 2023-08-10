@@ -1,0 +1,147 @@
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(176, 176, 176);
+}
+
+body{
+    background-color: #f6e9d2;
+}
+
+nav {
+    width: 89%;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    font-family: cursive, monospace, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.logo {
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+}
+.menu a:hover{
+    background-color: rgb(211, 225, 221);
+    border-radius: 8px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+
+.left{
+    flex-basis: 20%;
+}
+.right{
+    flex-basis: 30%;
+    border-radius: 8px;
+    
+}
+
+.left h2{
+    font-family: initial;
+    font-size: 30px;
+    color: black
+    
+}
+.left h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5em;
+}
+.left p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 2.5rem;
+}
+
+#Achievements{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.leftA img{
+    height: 700px;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.leftA{
+    flex-basis: 40%;
+}
+.rightA{
+    flex-basis: 60%;
+}
+
+h2{
+    font-family: initial;
+    font-size: 40px;
+}
+
+ul{
+    font-size: 20px;
+}
+p{
+    font-size: 25px;
+}
+
+#A{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: #4c3d31;
+    color: #e9e7e7;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#follow{
+    text-align: center;
+}
+#follow i{
+    color: #e9e7e7;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.location{
+    padding: 25px 100px;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.location a{
+    text-decoration: none;
+    color: cyan;
+}
